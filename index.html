@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kareena Lakhani - AI/ML engineer focused on agentic systems, robotics perception, and autonomous systems.">
+  <title>Kareena Lakhani | AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">KL</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">AI/ML Engineer | Robotics & Autonomous Systems</p>
+        <h1>Kareena Lakhani</h1>
+        <p class="hero-text">
+          I build agentic AI systems, multimodal reasoning pipelines, and robotics perception workflows that connect research ideas to working engineering systems.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button primary" href="Kareena_Lakhani_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <a class="button" href="https://github.com/Kareena2207" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button" href="https://www.linkedin.com/in/kareenalakhani" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <img src="passport_photo_2x2.jpg" alt="Portrait of Kareena Lakhani" class="portrait">
+      </div>
+    </section>
+
+    <section class="section about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">Engineering intelligent systems with memory, perception, and autonomy.</h2>
+      </div>
+      <p>
+        I am pursuing an M.S. in Robotics & Autonomous Systems with an AI concentration at Arizona State University. My work sits at the intersection of LLM/VLM agents, retrieval-augmented memory, deep learning, reinforcement learning, visual odometry, and robotics autonomy.
+      </p>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Work</p>
+        <h2 id="projects-title">Projects with measurable outcomes</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div>
+            <p class="project-kicker">Agentic AI | VLMs | Memory</p>
+            <h3>Multimodal VLM Agent With Semantic Memory</h3>
+            <p>
+              Built a ReAct-style multimodal agent framework with OCR tool use, semantic memory retrieval, and episodic state tracking for long-horizon visual reasoning.
+            </p>
+          </div>
+          <ul>
+            <li>Improved Kirby benchmark progress from 5% to 20%+.</li>
+            <li>Evaluated loop reduction, task completion, and token efficiency across 4 games.</li>
+            <li>Used PyTorch, Sentence-Transformers, MiniLM, and transformer-based architectures.</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <p class="project-kicker">Reinforcement Learning | NEAT</p>
+            <h3>NeuroEvolution for Bipedal Locomotion</h3>
+            <p>
+              Evolved neural controllers for BipedalWalker-v3 and compared reward shaping strategies for stable, energy-aware locomotion.
+            </p>
+          </div>
+          <ul>
+            <li>Achieved 272.92 best average reward over 20 evaluation episodes.</li>
+            <li>Reached 0% failure rate in final evaluation.</li>
+            <li>Measured a 48.73 reward-point gain from topology evolution.</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <p class="project-kicker">Computer Vision | Visual Odometry</p>
+            <h3>Deep Patch Visual Odometry Ablation Study</h3>
+            <p>
+              Benchmarked DPVO architecture variants on TartanAir to study the effect of temporal attention, ConvLSTM, and Softmax temperature tuning.
+            </p>
+          </div>
+          <ul>
+            <li>Replicated published DPVO results within a few centimeters.</li>
+            <li>Evaluated 16 sequences on an NVIDIA RTX 4090.</li>
+            <li>Found Softmax temperature tuning achieved the lowest average ATE of 0.21m.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2 id="experience-title">Software quality, automation, and engineering discipline</h2>
+      </div>
+      <article class="timeline-item">
+        <div class="timeline-meta">
+          <h3>Associate Intern</h3>
+          <p>Capgemini | Feb 2023 - Jun 2023</p>
+        </div>
+        <ul>
+          <li>Developed comprehensive test plans, test cases, and review templates for web application workflows, improving coverage, documentation quality, and requirement traceability.</li>
+          <li>Automated end-to-end test scenarios using Selenium WebDriver, Java, TestNG, Maven, XPath/CSS selectors, and Page Object Model, reducing manual regression effort by an estimated 30-40%.</li>
+          <li>Performed API validation using Postman and executed functional/regression tests within a hybrid automation framework, identifying defects earlier and supporting faster QA feedback cycles.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2 id="skills-title">Tools I use to build and evaluate intelligent systems</h2>
+      </div>
+      <div class="skills-grid">
+        <div>
+          <h3>AI/ML</h3>
+          <p>PyTorch, LangChain, LangGraph, RAG, FAISS, Chroma, LLMs, VLMs, NLP, Computer Vision, Reinforcement Learning, OpenCV</p>
+        </div>
+        <div>
+          <h3>Robotics</h3>
+          <p>ROS/ROS2, Gazebo, SLAM, Motion Planning, Path Planning, Sensor Fusion, MyCobot Pro 600, Raspberry Pi</p>
+        </div>
+        <div>
+          <h3>Programming</h3>
+          <p>Python, C/C++, MATLAB/Simulink, Linux, Docker, Git, Shell Scripting, NumPy</p>
+        </div>
+        <div>
+          <h3>Cloud & APIs</h3>
+          <p>AWS Lambda, API Gateway, S3, DynamoDB, AWS Bedrock, Anthropic Claude API, Postman</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education" aria-labelledby="education-title">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2 id="education-title">Academic foundation</h2>
+      </div>
+      <div class="education-grid">
+        <article>
+          <h3>Arizona State University</h3>
+          <p>M.S. Robotics & Autonomous Systems, AI</p>
+          <span>Aug 2024 - May 2026 | GPA: 3.90/4.00</span>
+        </article>
+        <article>
+          <h3>MIT-ADT University</h3>
+          <p>B.Tech. Electronics & Communication Engineering</p>
+          <span>Aug 2019 - Jul 2023 | GPA: 8.60/10.00</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Let’s build intelligent systems that work in the real world.</h2>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:klakhan5@asu.edu">klakhan5@asu.edu</a>
+        <a href="https://www.linkedin.com/in/kareenalakhani" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/Kareena2207" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
